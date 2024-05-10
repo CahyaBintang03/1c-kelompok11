@@ -175,11 +175,7 @@ def kalkulator():
         # Jika nilai tidak sesuai dengan range yang ditentukan seperti diatas
         else:
             st.warning("""
-                    Harap masukkan nilai : 
-                    \n3.1 - 4.4 = untuk Sindur Metil
-                    \n4.2 - 6.3 = untuk Indikator Metil Merah
-                    \n6.0 - 7.6 = untuk Indikator Bromtimol Blue
-                    \n8.2 - 10 = untuk Indikator Fenolftalein
+                    Nilai pH yang anda masukkan tidak termasuk dalam indikator apapun
                     """)
 
 # Perhitungan pada pH
